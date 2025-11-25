@@ -1,0 +1,164 @@
+.minha-nav, .my-footer {
+  background: #005500;
+}
+
+.minha-home {
+  text-align: center;
+}
+
+.my-link {
+  color: #15ff00;
+  transition: 0.3s ease;
+}
+
+.my-link:hover {
+  color: #15b300;
+  transition: 0.3s ease;
+}
+
+.navbar-brand {
+  gap: 10px !important;
+  height: 60px !important;
+}
+
+.section-title {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.full-background {
+  background: #300255;
+}
+
+.list-bg {
+  background-color: #500092;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #005500;
+  border-color: #005500;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #004400;
+  border-color: #004400;
+}
+
+.ancora {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  background: #005500;
+  color: #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s;
+  z-index: 1000;
+}
+
+.ativa {
+  font-weight: bold;
+  color: white;
+}
+
+.ancora:hover {
+  background: rgb(0, 160, 21);
+}
+
+/*table dos cursos da etec*/
+.table-container {
+  overflow-x: auto;
+}
+
+.cursos-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 300px;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.text-muted-2 {
+  --bs-text-opacity: 1;
+  color: #bcc5cc !important;
+}
+
+.bg-home {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    /* escurece a imagem */
+    url('https://www.slashgear.com/img/gallery/over-56-said-they-most-regularly-use-this-internet-browser/intro-1660589702.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+
+.star-rating {
+  direction: rtl;
+  display: inline-flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star-rating input:checked~label,
+.star-rating label:hover,
+.star-rating label:hover~label {
+  color: gold;
+}
+
+.rating-numbers {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo do carrossel tipo "text-section" */
+.generation-image img {
+  height: 420px;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  opacity: .35;
+  mix-blend-mode: multiply;
+}
+
+.text-section {
+  background: #f8f9fa;
+}
+
+.period-badge {
+  font-size: .9rem;
+}
